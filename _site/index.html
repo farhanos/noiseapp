@@ -1,18 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Test Page: Don't Panic</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/main.css">
+  
+    <title>Code Dangerously | Test Page</title>
+  
+  
+    <meta name="description" content="A dangerous site deservers a dangerous blog.">
+  
+  <link href="/favicon.png" rel="icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/fonts/font-awesome-4.7.0/css/fontawesome.css"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Caveat|Charm|Courgette|Gloria+Hallelujah|Kaushan+Script|Major+Mono+Display|Reenie+Beanie|Tangerine|Viga" rel="stylesheet">
 </head>
   <body>
     <header class="header">
-<ul class="header-nav nav-links">
-  <li><a href="/">Home</a></li>
+  <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
+    <ul class="header-nav nav-links">
+      <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2016/11/04/title-of-second-post.html">This is the title of the post</a></li>
+    
+      <li><a href="/2016/11/03/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2016/11/04/title-of-second-post.html">Newest Post</a></li>
-</ul>
+    </ul>
+  </nav>
   <a href="/" class="header-logo">
     <img src="/images/logo.png" alt="Learn Enough">
   </a>
@@ -24,16 +49,22 @@
   <div class="hero-content">
     <h1>CODE DANGEROUSLY</h1>
   <ul class="social-list">
-    <li>
-      <a href="http://example.com/" class="social-link">Fb</a>
-    </li>
-    <li>
-      <a href="http://example.com/" class="social-link">Tw</a>
-    </li>
-    <li>
-      <a href="http://example.com/" class="social-link">Gh</a>
-    </li>
-  </ul>
+      <li>
+        <a href="https://facebook.com/learnenough" class="social-link">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/learnenough" class="social-link">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/learnenough" class="social-link">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
 
@@ -175,7 +206,17 @@ the spleen and regulating the circulation.</p>
     <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <a class="drop-trigger" href="/blog">Blog</a>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2016/11/04/title-of-second-post.html">This is the title of the post</a></li>
+    
+      <li><a href="/2016/11/03/title-of-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
 <li><a href="/2016/11/04/title-of-second-post.html">Newest Post</a></li>
     </ul>
   </nav>
